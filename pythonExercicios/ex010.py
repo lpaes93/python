@@ -1,7 +1,4 @@
 # Exercício 10 - Conversor de moedas.
 
 real = float(input('Digite quanto tem na carteira: '))
-
-dolar = real / 3.27
-
-print('Com {} você pode comprar {:.2f} dólares.'.format(real, real/5.17))
+print('\nCom \033[31mR${:.2f}\033[m você pode comprar \033[36m${:.2f}\033[m.'.format(real, real/5.29))

@@ -5,7 +5,7 @@ num = int(input('Digite um número: '))
 ant = num - 1
 suc = num + 1
 
-print(f'Analisando o valor {num}, seu antecessor é {ant} e o sucessor é {suc}.')
+print(f'Analisando o valor \033[4:33m{num}\033[m, seu antecessor é \033[4:34m{ant}\033[m e o sucessor é \033[4:34m{suc}\033[m.')
 
 # Outra forma de fazer
 

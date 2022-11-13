@@ -9,4 +9,4 @@ dm = d * 10 # Decímetro
 cm = d * 100 # Centímetro
 mm =  d * 1000 # Milímetro
 
-print(f'A medida {d:.2f} metros corresponde a:\n{km:.2f} km.\n{hm:.1f} hm.\n{dam:.0f} dam.\n{dm:.0f} dm.\n{cm:.0f} cm.\n{mm:.0f} mm.')
+print(f'A medida {d:.2f} metros corresponde a:\n\033[1:31m{km:.2f} km.\n{hm:.1f} hm.\n{dam:.0f} dam.\n{dm:.0f} dm.\n{cm:.0f} cm.\n{mm:.0f} mm.')

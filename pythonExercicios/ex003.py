@@ -5,4 +5,4 @@ n2 = int(input('Digite outro número: '))
 
 s = n1 + n2
 
-print('A soma entre {} e {} é {}.'.format(n1, n2, s))
+print('A soma entre \033[31m{}\033[m e \033[31m{}\033[m é \033[4:34m{}\033[m.'.format(n1, n2, s))
